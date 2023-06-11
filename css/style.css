@@ -1,0 +1,111 @@
+@font-face {
+    font-family: SF Pro Display;
+    src: url(/linktree/FONTS/SFPRODISPLAYREGULAR.OTF);
+}
+body{display: flex;
+    background: linear-gradient(180deg, rgba(0, 122, 255, 0.05) 0%, rgba(54, 52, 163, 0) 100%);
+    background-repeat: no-repeat;
+    flex-direction: column;
+    align-items: center;
+
+}
+#WASHINGTON-foto{
+height: 258px;
+width: 252px;
+left: 68px;
+top: 43px;
+border-radius: 126px;
+
+}
+.nome{
+    width: 196px;
+    height: 82px;
+    text-align: center;
+    font-family: 'SF Pro Display';
+}
+h1{
+letter-spacing: -1px;
+    font-weight: bold;
+    font-family: 'SF Pro Display';   
+}
+p{
+    font-family: 'SF Pro Display';
+    
+}
+h2{
+    width: 358px;
+    height: 24px;
+    left: 13px;
+    top: 404px;
+    
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 24px;
+    text-align: center;
+    color: #48484A;
+}
+.icons{
+    display: flex;
+    height: 48px;
+    width: 248.5px;
+    justify-content: space-between;
+
+}
+.botao1{
+    display: flex;
+    width: 358px;
+    height: 65px;
+    background: #007AFF;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: auto;
+}
+.botao2{
+    display: flex;
+    width: 358px;
+    height: 65px;
+    border-radius: 10px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+    margin-bottom: auto;
+    border: 1px solid #007AFF;
+}
+.botao1 > h1{
+    font-family: SF Pro Display;
+    font-size: 17px;
+    font-weight: 700;
+    margin:0px;
+    
+    
+    
+    color: white;
+
+}
+.botao2 > h1{
+    font-family: SF Pro Display;
+    font-size: 17px;
+    font-weight: 700;
+    margin:0px;
+    
+    
+    
+    color: black;
+
+}
+.botao1 > p{
+    font-family: SF Pro Display;
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22px;
+    margin: 0px;
+    color: #D1D1D6;
+
+}
+
